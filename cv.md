@@ -5,6 +5,7 @@
 
 * email: 127.zeppelin@gmail.com
 * phone: +375(29)18-00-882
+* Discord: lz127(@127zeppelin)
 
  ## I have a dream
    I worked all my life in a job that was not interesting to me. At the same time I was engaged in the creation of sites in my spare time. This field of activity has always been interesting to me. I want to do something that is more interesting to me than my current job.

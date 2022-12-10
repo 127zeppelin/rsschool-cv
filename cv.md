@@ -1,5 +1,5 @@
 # Siarhey Shcharbitski
-# Newborn Frontend Developer
+## Newborn Frontend Developer
 
 ## Contacts
 
@@ -22,8 +22,19 @@
 9. Notepad++
 10. Figma
    
+## Code
+```
+const Hello = 'Hell world';
+if (Hello == 'Hello world'){
+    console.log(Hello);
+}else{
+    console.log('Goodbye World');
+}
 
-   ### Education 
+
+``` 
+
+### Education 
 
 * Economist - institute
 * Action script & Flash - courses
@@ -32,3 +43,7 @@
    
    My English < A1   
 
+
+### Logo
+
+![main logo](logo-lz.jpg "Накидал Логотипчик")

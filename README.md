@@ -1,2 +1,2 @@
 # rsschool-cv
-The best CV
+https://127zeppelin.github.io/rsschool-cv/cv

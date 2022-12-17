@@ -1,17 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     text-align: center;
 }
-.container{
-    display: flex;
-    flex-wrap: wrap;
+.container-fluid{
+    position:fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    display:block;
+    z-index: 100;
 }
-.container div{
+.container{
+    position:static;
+    box-sizing: border-box;
+    display:block;
+    margin: 0 auto;
+}
+@media (min-width: 1399) {
+    .container, nav{
+    max-width: 1320px;
+    }
+}
+@media (min-width: 1200px) {
+    .container, nav{
+    max-width: 1140px;
+    }
+}
+@media (min-width: 992px) {
+    .container, nav{
+    max-width: 960px;
+    }
+}
+@media (max-width: 1399) {
+    .container, nav{
+    max-width: 1320px;
+    }
+}
+.row{
+    box-sizing:border-box;
+    display:flex;
+    position:static;
+}
+    .container, nav{
     align-self: center;
 }
+
+.nav-row{
+    justify-content: end;}
 .ava-ou{
     padding:20px;
 }
@@ -19,14 +61,64 @@ img.ava{
     max-width: 200px;
     border-radius: 50%;
 }
+nav{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.bg-white{
+    background: white;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.1);
+}
+nav ul li{
+    list-style-type:none;
+    background: #fff;
+    padding: 5px 15px;
+}
 main{
     width:1170px;
     max-width: 100%;
     margin:0 auto;
 }
+section{
+    margin: 100px auto;
+}
+#contacts ul li{
+    list-style-type: none;
+    position: relative;
+}
+#contacts ul li.contact-icon:before{
+        content: '';
+        position: relative;
+        display: inline-block;
+        top: 1px;
+        right: 5px;
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+.location:before{
+    background-image: url(icon-location.svg);
+}
+.diskord:before{
+    background-image: url(icon-discord.svg);
+}
+.email:before{
+    background-image: url(icon-email.svg);
+}
+.github:before{
+    background-image: url(icon-github.svg);
+}
+.telegram:before{
+    background-image: url(icon-telega.svg);
+}
+.zagolovok{
+    padding-top: 50px;
+}
 footer{
     position: -webkit-sticky;
-    position: sticky;
+    position: relative;
     bottom: 0px;
     padding:20px;
     background-color: #888;

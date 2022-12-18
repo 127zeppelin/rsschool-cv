@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-cv{
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+a:link {
+   color:#00a4c2;
+   text-decoration: none;
+}
+
+a:visited {
+    color:#00a4c2;
+}
+
+a:hover {
+    color:#ff0584;
+}
+
+a:active {
+    color:#00a4c2;
+}
+.section-profile-title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+}
+.container-fluid{
+    position:fixed;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    display:block;
+    z-index: 100;
+}
+.container{
+    position:static;
+    box-sizing: border-box;
+    display:block;
+    margin: 0 auto;
+}
+
+.row{
+    box-sizing:border-box;
+    display:flex;
+}
+    .container, nav{
+    align-self: center;
+}
+
+.nav-row{
+    justify-content: end;}
+.ava-ou{
+    padding:20px;
+    text-align: center;
+}
+img.ava{
+    max-width: 200px;
+    border-radius: 50%;
+}
+.nav{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+.bg-white{
+    background: white;
+    box-shadow: 1px 1px 10px rgb(0,0,0,0.1);
+}
+nav ul li{
+    list-style-type:none;
+    background: #fff;
+    padding: 5px 15px;
+}
+
+section{
+    margin: 50px auto;
+    padding: 50px 15px;
+}
+.section-title{
+    font-family: 'Fjalla One', sans-serif;
+}
+.items-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+.contact-item{
+    width: 50%;
+    list-style-type: none;
+}
+.contact-item:before{
+        content: '';
+        position: relative;
+        display: inline-block;
+        top: 7px;
+        right: 5px;
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+.location:before{
+    background-image: url(icon-location.svg);
+}
+.diskord:before{
+    background-image: url(icon-discord.svg);
+}
+.email:before{
+    background-image: url(icon-email.svg);
+}
+.github:before{
+    background-image: url(icon-github.svg);
+}
+.telegram:before{
+    background-image: url(icon-telega.svg);
+}
+.zagolovok{
+    padding-top: 50px;
+}
+.col-8{
+    width: 66.66%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-6{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-4{
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+pre{
+    background: #00a4c2;
+    color: #fff;
+    border: 1px solid #ff0584;
+    padding: 25px;
+}
+#projects img{
+     max-width: 100%;
+     border-radius: 0.5em;
+}
+footer{
+    position: -webkit-sticky;
+    position: relative;
+    bottom: 0px;
+    padding:20px;
+    background-color: #888;
+    text-align: center;
+    color:#fff;
+}
+footer a:link{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:link{
+    color: #fff;
+    text-decoration: none;
+}
+@media (min-width: 1400px) {
+    .container, .nav{
+    max-width: 1320px;
+    }
+    
+}
+@media (min-width: 1200px)and (max-width: 1399px) {
+    .container, nav{
+    max-width: 1140px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .container, nav{
+    max-width: 960px;
+    }
+    .contact-item{
+        width: 100%;
+        list-style-type: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .container, nav{
+    max-width: 720px;
+    }
+    .contact-item{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .nav-row{
+        justify-content: center;}
+}
+@media (min-width: 577px) and (max-width: 767px){
+    .container, nav{
+    max-width: 540px;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-4{
+        position: relative;
+        width: 100%;
+    }
+    img.ava{
+        max-width: 100px;
+        border-radius: 50%;
+    }
+    .contact-item{
+        width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .nav-row{
+        justify-content: center;}
+}
+
+@media (max-width: 576px) {
+    .container, nav{
+    max-width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .col-6{
+        position: relative;
+        width: 100%;
+    }
+    .col-4{
+        position: relative;
+        width: 100%;
+    }
+    img.ava{
+        max-width: 100px;
+        border-radius: 50%;
+        margin-top: 100px;
+    }
+    .contact-item{
+        width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .nav-row{
+        justify-content: center;}
+}

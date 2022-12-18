@@ -26,110 +26,136 @@
       </div>
       <div class="container zagolovok">
          <div class="row">
-            <div class="col ava-ou">
+            <div class="col-6 ava-ou">
                <img class="ava" alt="logo" src="logo-lz.jpg">
             </div>
-            <div col="col">
-               <h1>Siarhey Shcharbitski</h1>
-               <h2>Newborn Frontend developer</h2>
+            <div class="col-6 section-profile-title">
+               <h1 class="title-cv">Siarhey Shcharbitski</h1>
+               <h2 class="title-cv">Newborn Frontend developer</h2>
             </div>
          </div>
       </div>
    </header>
    <main>
-      <section id="contacts">
-         <div class="container">
-
-            <div>
-               <h2>Contacts</h2>
-               <ul>
-                  <li class="contact-icon location">Minsk, Belarus</li>
-                  <li class="contact-icon diskord">Discord: </li>
-                  <li class="contact-icon email">Email</li>
-                  <li class="contact-icon telegram">Telegram</li>
-                  <li class="contact-icon github">Github</li>
-               </ul>
+      <section id="contacts"  class="container">
+            <div class="row">
+               <div class="col-4">
+                  <h2 class="section-title">Contacts</h2>
+               </div>
+               <div class="col-8">
+                  <ul class="items-list">
+                     <li class="contact-item location">Adress: <a href="https://goo.gl/maps/2C3Git4q69DfirTw7">Minsk,
+                           Belarus</a></li>
+                     <li class="contact-item diskord">Discord: <a
+                           href="https://discordapp.com/users/Siarhey#3694/">Siarhey#3694</a></li>
+                     <li class="contact-item email">Email: <a
+                           href="mailto:127.zeppelin@gmail.com">127.zeppelin@gmil.com</a></li>
+                     <li class="contact-item telegram">Telegram: <a href="https://t.me/lz127">Lz127</a></li>
+                     <li class="contact-item github">Github: <a href="https://github.com/127zeppelin">127zeppelin</a>
+                     </li>
+                  </ul>
+               </div>
             </div>
-         </div>
       </section>
-      <section id="summary">
-         <div class="container">
+      <section id="summary" class="container">
+         <h2 class="section-title">Summary</h2>
+            <div class="row">
 
-            <div>
-               <h2>Summary</h2>
-               <p>I have a dream I worked all my life in a job that was not interesting to me. At the same time I was engaged in the creation of sites in my spare time. This field of activity has always been interesting to me. I want to do something that is more interesting to me than my current job.</p>
+               <p>I have a dream I worked all my life in a job that was not interesting to me. At the same time I was
+                  engaged in the creation of sites in my spare time. This field of activity has always been interesting
+                  to me. I want to do something that is more interesting to me than my current job.</p>
             </div>
-         </div>
       </section>
-      <section id="skills">
-         <div class="container">
-
-            <div>
-               <h2>Skills</h2>
-               <ul>
-                  <li>Adress: Minsk, Belarus</li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-               </ul>
+      <section id="skills" class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="row">
+               <div class="col-4">
+                  <h3>Web-development: </h3>
+                  <ul>
+                     <li>HTML5</li>
+                     <li> CSS3</li>
+                     <li>JavaScript</li>
+                     <li>jQuery</li>
+                     <li>vanilla-js</li>
+                     <li>Bootstrap</li>
+                  </ul>
+               </div>
+               <div class="col-4">
+                  <h3>Graphics: </h3>
+                  <ul>
+                     <li>Figma</li>
+                     <li>Adobe Photoshop</li>
+                     <li>Corel Draw</li>
+                     <li>Adobe Illustrator</li>
+                  </ul>
+               </div>
+               <div class="col-4">
+                  <h3>Version control: </h3>
+                  <ul>
+                     <li>Git</li>
+                     <li>Github</li>
+                  </ul>
+               </div>
             </div>
-         </div>
       </section>
-      <section id="code">
-         <div class="container">
+      <section id="code" class="container">
+         <h2 class="section-title">Code</h2>
+            <div class="row">
 
-            <div>
-               <h2>Code</h2>
-               <code>
-                  <pre>
-                     const Hello = 'Hell world';
-                     if (Hello == 'Hello world'){
-                         console.log(Hello);
-                     }else{
-                         console.log('Goodbye World');
+               <pre>
+                  <code>
+            const Hello = 'Hell world';
+            if (Hello == 'Hello world'){
+                console.log('Hello world');
+                }else{
+                console.log('Goodbye World');
                      }
-                     
-                  </pre>
                </code>
+            </pre>
             </div>
-         </div>
       </section>
-      <section id="projects">
-         <div class="container">
-
-            <div>
-               <h2>Projects</h2>
-               <ul>
-                  <li>Adress: Minsk, Belarus</li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-               </ul>
+      <section id="projects" class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row">
+               <div class="col-4">
+                  <img src="plitochnik.jpg" alt="Project Plitochnik">
+                  <h3>Website for a tiling contractor</h3>
+               </div>
+               <div class="col-4">
+                  <img src="cleaning-star.jpg" alt="Project Himchistka">
+                  <h3>Website for dry cleaning of upholstered furniture</h3>
+               </div>
+               <div class="col-4">
+                  <img src="project-romano.jpg" alt="Project Romano">
+                  <h3>Website for a house for rent</h3>
+               </div>
             </div>
-         </div>
       </section>
-      <section id="education">
-         <div class="container">
+      <section id="education" class="container">
+         <h2 class="section-title">Education</h2>
+         <div class="row">
 
-            <div>
-               <h2>Education</h2>
                <ul>
                   <li>Minsk Innovation University</li>
                   <li>Flash animation courses</li>
+                  <li>jQuery online courses</li>
                </ul>
             </div>
-         </div>
       </section>
-      <section id="english">
-         <div class="container">
-            <h2>English</h2>
+      <section id="english" class="container">
+         <h2 class="section-title">My little English</h2>
+         <div class="row">
             <p>My English &lt; A1</p>
          </div>
       </section>
    </main>
-   <footer>Copright</footer>
+   <footer>
+      <div class="row">
+         <div class="col-6"><a href="https://github.com/127zeppelin">&#169; 127zeppelin, 2022</a></div>
+         <div class="col-6"><a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="RS Schooll"
+                  width="100"></a></div>
+      </div>
+   </footer>
 </body>
 
 </html>
